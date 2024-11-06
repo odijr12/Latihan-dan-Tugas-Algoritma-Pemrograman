@@ -47,16 +47,16 @@ while(lgi == 'Y' || lgi == 'y'){
 	if (Mhs[m].nilai_akhir >= 80 && Mhs[m].nilai_akhir <= 100){
 	    Mhs[m].nilai_huruf = 'A';
 	}
-	else if(Mhs[m].nilai_akhir >= 70 && Mhs[m].nilai_akhir < 80){
+	else if(Mhs[m].nilai_akhir >= 70 && Mhs[m].nilai_akhir <= 80){
 		Mhs[m].nilai_huruf = 'B';		
 	}
-	else if(Mhs[m].nilai_akhir >= 55 && Mhs[m].nilai_akhir < 70){
+	else if(Mhs[m].nilai_akhir >= 55 && Mhs[m].nilai_akhir <= 70){
 		Mhs[m].nilai_huruf = 'C';
 	}
-	else if(Mhs[m].nilai_akhir >= 40 && Mhs[m].nilai_akhir < 55){
+	else if(Mhs[m].nilai_akhir >= 40 && Mhs[m].nilai_akhir <= 55){
 		Mhs[m].nilai_huruf = 'D';
 	}
-	else if(Mhs[m].nilai_akhir >= 0 && Mhs[m].nilai_akhir < 40){
+	else if(Mhs[m].nilai_akhir >= 0 && Mhs[m].nilai_akhir <= 40){
 		Mhs[m].nilai_huruf = 'E';
 	}
 	
